@@ -1,0 +1,181 @@
+
+
+.stl_ sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+.stl_ sub {
+  vertical-align: baseline;
+  position: relative;
+  top: 0.4em;
+}
+.stl_ a:link {
+  text-decoration: none;
+}
+.stl_ a:visited {
+  text-decoration: none;
+}
+@media screen and (min-device-pixel-ratio: 0),
+  (-webkit-min-device-pixel-ratio: 0),
+  (min--moz-device-pixel-ratio: 0) {
+  .stl_view {
+    font-size: 10em;
+    transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+  }
+}
+.stl_layer {
+}
+.stl_ie {
+  font-size: 1pt;
+}
+.stl_ie body {
+  font-size: 12em;
+}
+@media print {
+  .stl_view {
+    font-size: 1em;
+    transform: scale(1);
+  }
+}
+.stl_grlink {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+}
+.stl_01 {
+  position: absolute;
+  white-space: nowrap;
+}
+.stl_02 {
+  font-size: 1em;
+  line-height: 0em;
+  width: 85.33334em;
+  height: 48em;
+  border-top: 0.083333336em solid Black;
+  border-right: 0.083333336em solid Black;
+  border-bottom: 0.083333336em solid Black;
+  border-left: 0.083333336em solid Black;
+  display: block;
+  margin: 0em;
+}
+
+@supports (-ms-ime-align: auto) {
+  .stl_02 {
+    overflow: hidden;
+  }
+}
+.stl_03 {
+  position: relative;
+}
+.stl_04 {
+  position: absolute;
+  pointer-events: none;
+  clip: rect(-0.041667em, 85.41666em, 48.04167em, -0.041667em);
+  width: 100%;
+}
+.stl_05 {
+  position: relative;
+  width: 85.33334em;
+}
+.stl_06 {
+  height: 4.8em;
+}
+.stl_ie .stl_06 {
+  height: 48em;
+}
+.stl_07 {
+  font-size: 1.16625em;
+  font-family: "UDDMOQ+Georgia Pro Bold";
+  color: #000000;
+}
+.stl_08 {
+  line-height: 1.13623em;
+}
+.stl_09 {
+  letter-spacing: 0em;
+}
+
+.stl_ie .stl_09 {
+  letter-spacing: 0px;
+}
+.stl_10 {
+  font-size: 3.29125em;
+  font-family: "FHCBKQ+TT Norms Pro Bold";
+  color: #191919;
+}
+.stl_11 {
+  line-height: 1.28em;
+}
+.stl_12 {
+  letter-spacing: 0.107em;
+}
+
+.stl_ie .stl_12 {
+  letter-spacing: 5.6329px;
+}
+.stl_13 {
+  font-size: 1.151875em;
+  font-family: "DSWDNB+TT Norms Pro Regular";
+  color: #191919;
+}
+.stl_14 {
+  letter-spacing: -0.0002em;
+}
+
+.stl_ie .stl_14 {
+  letter-spacing: -0.0039px;
+}
+.stl_15 {
+  font-size: 0.91625em;
+  font-family: "DSWDNB+TT Norms Pro Regular";
+  color: #ffffff;
+}
+.stl_16 {
+  letter-spacing: -0.0001em;
+}
+
+.stl_ie .stl_16 {
+  letter-spacing: -0.002px;
+}
+.stl_17 {
+  font-size: 0.9875em;
+  font-family: "DSWDNB+TT Norms Pro Regular";
+  color: #000000;
+}
+.stl_18 {
+  font-size: 3.29125em;
+  font-family: "FHCBKQ+TT Norms Pro Bold";
+  color: #000000;
+}
+/* Common styles for all devices */
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+    .stl_02 {
+      font-size: 1em;
+      /* ... (other desktop styles) ... */
+    }
+  }
+  
+  /* Tablet styles */
+  @media screen and (max-width: 767px) {
+    .stl_02 {
+      font-size: 0.8em;
+      /* ... (other tablet styles) ... */
+    }
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 480px) {
+    .stl_02 {
+      font-size: 0.6em;
+      /* ... (other mobile styles) ... */
+    }
+  }
+  
